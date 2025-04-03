@@ -44,12 +44,12 @@
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnAtualizar = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.lboUsuarios = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.txtSenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -185,55 +185,55 @@
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // lboUsuarios
             // 
-            this.textBox6.Location = new System.Drawing.Point(284, 12);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(253, 423);
-            this.textBox6.TabIndex = 16;
+            this.lboUsuarios.Location = new System.Drawing.Point(299, 21);
+            this.lboUsuarios.Multiline = true;
+            this.lboUsuarios.Name = "lboUsuarios";
+            this.lboUsuarios.Size = new System.Drawing.Size(253, 423);
+            this.lboUsuarios.TabIndex = 16;
             // 
-            // textBox7
+            // txtID
             // 
-            this.textBox7.Location = new System.Drawing.Point(32, 21);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(209, 20);
-            this.textBox7.TabIndex = 0;
+            this.txtID.Location = new System.Drawing.Point(32, 21);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(209, 20);
+            this.txtID.TabIndex = 0;
             // 
-            // textBox8
+            // txtEmail
             // 
-            this.textBox8.Location = new System.Drawing.Point(32, 92);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(209, 20);
-            this.textBox8.TabIndex = 1;
+            this.txtEmail.Location = new System.Drawing.Point(32, 92);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(209, 20);
+            this.txtEmail.TabIndex = 1;
             // 
-            // textBox9
+            // txtNome
             // 
-            this.textBox9.Location = new System.Drawing.Point(32, 160);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(209, 20);
-            this.textBox9.TabIndex = 2;
+            this.txtNome.Location = new System.Drawing.Point(32, 160);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(209, 20);
+            this.txtNome.TabIndex = 2;
             // 
-            // textBox10
+            // txtCargo
             // 
-            this.textBox10.Location = new System.Drawing.Point(32, 231);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(209, 20);
-            this.textBox10.TabIndex = 6;
+            this.txtCargo.Location = new System.Drawing.Point(32, 231);
+            this.txtCargo.Name = "txtCargo";
+            this.txtCargo.Size = new System.Drawing.Size(209, 20);
+            this.txtCargo.TabIndex = 6;
             // 
-            // textBox11
+            // txtSenha
             // 
-            this.textBox11.Location = new System.Drawing.Point(32, 296);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(209, 20);
-            this.textBox11.TabIndex = 8;
+            this.txtSenha.Location = new System.Drawing.Point(32, 296);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(209, 20);
+            this.txtSenha.TabIndex = 8;
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 489);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.lboUsuarios);
             this.Controls.Add(this.btnAtualizar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnAdicionar);
@@ -241,18 +241,18 @@
             this.Controls.Add(this.dtpDataCadastro);
             this.Controls.Add(this.cbAtivo);
             this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.lblCargo);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblNovoEmail);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtNome);
             this.Controls.Add(this.lblID);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Principal";
@@ -280,11 +280,11 @@
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAtualizar;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox lboUsuarios;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtCargo;
+        private System.Windows.Forms.TextBox txtSenha;
     }
 }

@@ -17,3 +17,9 @@ CREATE TABLE userData (
     userPosition VARCHAR(255) NOT NULL,
     userRegister BIT NOT NULL
 );
+
+INSERT INTO userData (userID, userName, userBirthdate, userGender, userCPF, userStreetname, userCity, userState, userCEP, userEmail, userPassword, userDepartment, userPosition, userRegister) VALUES
+(1, 'Joyce Santos Gomes', '2006-07-04', 'F', 12345678901, 'Av. Carlos Barbosa', 'São Paulo', 'Grajaú', 12345678, 'joyce@gmail.com', HASHBYTES('SHA2_256', 'senha123'), 'Estética', 'Supervisora de estética', 1),
+(2, 'Claudir Santos Gomes', '2007-01-23', 'M', 12345678901, 'Rua Iguaçu', 'São Paulo', 'Embu Das Artes', 12345678, 'claudir@gmail.com', HASHBYTES('SHA2_256', 'senha123'), 'T.I', 'Engenheiro de Redes', 1);
+
+SELECT * FROM userData

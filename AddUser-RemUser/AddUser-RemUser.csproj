@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cadastrandoUsuariosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cadastrandoUsuariosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrandoUsuariosDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cadastrandoUsuariosDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +85,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="cadastrandoUsuariosDataSet.xsc">
+      <DependentUpon>cadastrandoUsuariosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cadastrandoUsuariosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cadastrandoUsuariosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cadastrandoUsuariosDataSet.xss">
+      <DependentUpon>cadastrandoUsuariosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cadastrandoUsuariosDataSet1.xsc">
+      <DependentUpon>cadastrandoUsuariosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="cadastrandoUsuariosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cadastrandoUsuariosDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cadastrandoUsuariosDataSet1.xss">
+      <DependentUpon>cadastrandoUsuariosDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
