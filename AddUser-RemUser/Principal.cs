@@ -18,5 +18,20 @@ namespace AddUser_RemUser
         {
             InitializeComponent();
         }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+            if (btnAdicionar.Text == "Cancelar") {
+                txtCargo.Text = "";
+                txtEmail.Text = "";
+                txtID.Text = "";
+                txtNome.Text = "";
+                txtSenha.Text = "";
+                cbAtivo.Checked = false;
+                dtpDataCadastro.Value = DateTime.Now;
+                btnAdicionar.Text = "Adicionar";
+                lboUsuarios.Clear();
+            }
+        }
     }
 }
