@@ -1,0 +1,11 @@
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\bin\Debug\AddUser-RemUser.exe.config
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\bin\Debug\AddUser-RemUser.exe
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\bin\Debug\AddUser-RemUser.pdb
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser-RemUser.csproj.AssemblyReference.cache
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser_RemUser.Form1.resources
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser_RemUser.Principal.resources
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser_RemUser.Properties.Resources.resources
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser-RemUser.csproj.GenerateResource.cache
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser-RemUser.csproj.CoreCompileInputs.cache
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser-RemUser.exe
+C:\Users\Claudir.sgoes\OneDrive - SENAC - SP\TecnicoEmTI-Senac\Programação\Projetos\Cadastro-Usuarios\AddUser-RemUser\obj\Debug\AddUser-RemUser.pdb
